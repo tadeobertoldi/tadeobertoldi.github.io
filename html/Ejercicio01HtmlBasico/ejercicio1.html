@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio1</title>       
+    </head> 
+    <body>
+        <h1>Primer parrafo corto</h1>            
+        <h2>Segundo parrafo corto</h2>         
+        <h2>Grupo de elementos de navegación</h2>  
+        <ul>
+            <li><a href="https://espanol.yahoo.com/?p=us">Yahoo</a></li>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+        </ul>
+        <hr>
+        <a href="file:///C:/xampp/htdocs/labIII/html/Ejercicio01HtmlBasico/OtraPaginaDelEjercicio1.html">Enlace a otra pagina dentro de la misma pestaña &nbsp;</a>
+        <a href="file:///C:/xampp/htdocs/labIII/html/Ejercicio01HtmlBasico/OtraPaginaDelEjercicio2.html"  target="_blank">Enlace a otra pagina en nueva pestaña &nbsp;</a>
+        <a href="#Otro">Ancla a otro punto de esta página</a>
+        <hr> <!--Line dentro de la pagina-->
+        <h1>Cuerpo principal del contenido</h1>  
+        <p>La etiqueta main es en HTML5 un etiqueta semantica. Esto quiere decir que tiene que ver
+            con el significado de los contenido de ella. Define el contenido principal de la pagina.
+            Unicamente puede haber una sola etiqueta como esta en todo el documento.<br/>
+            El contenido escrito aqui dentro no se repite en el resto del sitio(todo lo contrario
+            a los encabezados de pagina, los menues de navegacion y los pie de pagina). Es usado
+            por buscadores para indexar.<br/>
+            Conviene usar aqui textos que ayuden a encontrar la pagina luego de provesos de indexacion
+            de los buscadores.
+        </p>
+        <h2>Seccion etiquetas semanticas estructurales mas importantes:</h2> 
+        <ul>
+            <header><li>HEADER</li></header>
+            <footer><li>FOOTER</li></footer>
+            <section><li>SECTION</li></section>
+            <article><li>ARTICLE</li></article>
+            <nav><li>NAV</li></nav>
+            <address><li>ADDRESS</li></address> 
+        </ul>
+        <p>Las etiquetas semanticas estructurales estan relacionadas directamente con el significado del contenido
+            y no con los estilos ni las posiciones dentro del documento.
+        </p>
+        <h2>Reglas para etiquetas semanticas:</h2>
+        <ul>
+            <li>Los dintintos tipos de contenido se puden asociar a las etiquetas SECTION</li>
+            <li>Las unidades de contenido se asocian a las etiquetas ARTICLE. O sea que un SECTION anida multiples ARTICLES</li>
+            <li>Las etiquetas HEADER Y FOOTER pueden ser anidadas dentro de otras HEADER o FOOTER. Osea un FOOTER podria anidar otro HEADER y FOOTER</li>
+            <li>La etiqueta NAV debe ser unica en el documento y corresponde a los elementos de navegacion del documento</li>
+            <li>Reservar etiqueta h1 para usar dentro de etiquetas top level como main, header o footer</li>            
+        </ul> 
+        <h3>Section de imagenes</h3>
+        <p>En esta seccion mostraremos imagenes identificativas de nuestro sitio.</p>
+        <p>Esta imagen esta insertada en tamaño normal</p>
+        <img src="./Greco.jpg"/>
+        <br/>
+        <img alt="Greco" style="width:100px;height: 500px;" src="./Greco.jpg" />
+        <img alt="Greco" style="width:200px;height: 500px;" src="./Greco.jpg" />
+        <img alt="Greco" style="width:300px;height: 500px;" src="./Greco.jpg" />
+        <img alt="Greco" style="width:400px;height: 500px;" src="./Greco.jpg" />
+        <img alt="Greco" style="width:500px;height: 500px;" src="./Greco.jpg" />
+        <hr>
+        <h3>Section de video</h3>
+        <video src="rekkles.mp4" width="640" height="480" controls ></video>
+        <h2>Anclajes</h2>
+        <a id="Otro">Punto de anclado</a>
+        <h1>Datos de alumno</h1>
+        <p>Tadeo Nicolas Abalos Bertoldi</p>
+        <p>Legajo: 15-26618</p>
+        <p>Estomba 1691, El Palomar</p>
+    </body> 
+</html>
